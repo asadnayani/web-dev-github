@@ -1,0 +1,102 @@
+#hero {
+    height: 800px;
+    background-image: url("images/places/ocean.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content {
+    width: 900px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    /* we use margin and width to center the box */
+    position: relative;
+    top: 200px;
+}
+
+#hero-content h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+#hero-content p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+#hero-content a {
+    text-decoration: none;
+    background-color: rgb(255, 251, 0);
+    padding: 12px 24px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68 67 67);
+    /* margin-top: 32px; */
+}
+
+#hero-content a:hover {
+    background-color: rgb(255, 238, 0);
+}
+
+#highlights {
+    padding: 24px;
+    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(202, 243, 240));
+    /* linear gradient looks modern we have given two colors to the section and degress tells how the transition will look like*/
+}
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(59, 65, 64);
+    margin: 24px 0px;
+}
+
+#destinations {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.destination {
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.destination img {
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68 67 67);
+    border-radius: 10px;
+    object-fit: cover;
+
+    /* image is resized to fit into the given dimension 
+    the values are 1) Fit 2) contain 3) cover(mains aspect ratio and also fills)*/
+}
+
+.destination p {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(124, 123, 123);
+    margin: 20px 0;
+}
+
+.destination strong {
+    color: rgb(0, 160, 117)
+}
